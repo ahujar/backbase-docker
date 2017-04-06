@@ -1,6 +1,7 @@
 #!/bin/bash
 
 unset password
+read -p "Enter Username: " username
 prompt="Enter Password:"
 while IFS= read -p "$prompt" -r -s -n 1 char
 do
